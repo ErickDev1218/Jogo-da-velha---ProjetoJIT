@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: salmon;
+}
+.game{
+    background-color: lightblue;
+    width: 60%;
+    text-align: center;
+    margin:auto;
+    padding: 30px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    
+}
+h1{
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+body{
+    text-align: center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #CCC;
+    display: none;
+    margin: 5px;
+    border: 2px solid gray;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    content: "⭕";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    content: "❌";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+/* footer{
+    text-align: center;
+    display: flex;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: ;
+} */
+
+#botao{
+    width: 30%;
+    margin-top: 5px;
+}
+
+.inp{
+    display: block;
+    margin: 5px;
+}
+
+.conf{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#rei{
+    width: 30%;
+    margin-top: 5px;
+    display: none;
+}
+
+p{
+    margin: 5px;
+    display: none;
+}
