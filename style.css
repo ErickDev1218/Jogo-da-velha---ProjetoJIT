@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: salmon;
+    background-color: #1795A8;
 }
 .game{
-    background-color: lightblue;
-    width: 60%;
+    background-color: #FCCF47;
+    width: 40%;
     text-align: center;
     margin:auto;
     padding: 30px;
@@ -19,8 +19,19 @@ body{
 }
 h1{
     padding: 10px;
-    margin: 0px 0px 10px 0px;
+    background-color: #f8f8f8e4;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 8px;
+    color: #24AFC1;
 }
+.square:hover{
+    background-color: #24AFC1;
+}
+
 body{
     text-align: center;
 }
@@ -28,10 +39,14 @@ body{
 .square{
     width: 100px;
     height: 100px;
-    background-color: #CCC;
+    background-color: #f8f8f8e4;
     display: none;
     margin: 5px;
     border: 2px solid gray;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px black;
+    cursor:pointer;
+    color:#FCCF47;
 }
 
 .o{
@@ -67,23 +82,39 @@ body{
 
 }
 
-/* footer{
-    text-align: center;
-    display: flex;
-    background-color: lightblue;
+section{
+    display:flex;
+    background-color: #F8F8F8;
     align-items: center;
     justify-content: center;
-    flex-direction: ;
-} */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    
+
+
+}
 
 #botao{
     width: 30%;
     margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: medium;
+    
+}
+#botao:hover{
+    background-color:#24afc1c9;
 }
 
 .inp{
     display: block;
     margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: medium;
 }
 
 .conf{
@@ -99,9 +130,19 @@ body{
     width: 30%;
     margin-top: 5px;
     display: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: medium;
+}
+
+#rei:hover{
+    background-color:#24afc1c9;
 }
 
 p{
     margin: 5px;
     display: none;
 }
+
+
+
